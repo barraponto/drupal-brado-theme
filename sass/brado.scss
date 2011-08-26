@@ -4,9 +4,12 @@ body {
 
 #branding {
   background: image-url('header-bg.png');
-  height: 187px; }
+  height: 187px;
+  p {
+    padding-right: 4em;
+    text-align: right; } }
 
-h1.site-name {
+.site-name {
     text-align: center;
 
   a { 
@@ -16,4 +19,13 @@ h1.site-name {
     line-height: 187px;
     letter-spacing: 1.5em;
     text-transform: uppercase;
-    text-decoration: none;  } }
+    text-decoration: none; } }
+
+.site-slogan {
+  margin: -5.5em 0 1.5em;
+  color: white; }
+
+.site-author {
+  color: yellow;
+  letter-spacing: .25em;
+  text-transform: uppercase;}

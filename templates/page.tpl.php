@@ -13,6 +13,8 @@
 
 <div id='branding'><div class='limiter clearfix'>
   <?php if ($site_name): ?><h1 class='site-name'><?php print $site_name ?></h1><?php endif; ?>
+  <?php if ($site_slogan): ?><p class='site-slogan'><?php print $site_slogan ?></p><?php endif; ?>
+  <p class="site-author">Paulo Markun</p>
 </div></div>
 
 <?php if ($page['highlighted']): ?>
