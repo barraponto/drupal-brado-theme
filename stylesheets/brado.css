@@ -60,16 +60,17 @@ body {
 /* line 44, ../sass/brado.scss */
 #block-system-main-menu .expanded .menu a {
   padding-left: 3em;
+  text-transform: none;
   color: gray;
 }
 
-/* line 48, ../sass/brado.scss */
+/* line 49, ../sass/brado.scss */
 #left {
   float: left;
   width: 200px;
 }
 
-/* line 52, ../sass/brado.scss */
+/* line 53, ../sass/brado.scss */
 #main-content {
   margin-left: 200px;
   padding-left: 2em;
