@@ -1,0 +1,7 @@
+name = Brado
+description = Tema para o projeto Brado Retumbante
+core = 7.x
+engine = phptemplate
+base theme = tao
+
+stylesheets[all][] = stylesheets/brado.css

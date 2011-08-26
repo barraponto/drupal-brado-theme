@@ -1,0 +1,11 @@
+/* line 1, ../sass/brado.scss */
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 6, ../sass/brado.scss */
+#branding {
+  background: url('../images/header-bg.png?1314341549');
+  height: 187px;
+}
