@@ -6,20 +6,21 @@ body {
 
 /* line 5, ../sass/brado.scss */
 #branding {
+  margin-bottom: 2em;
   background: url('../images/header-bg.png?1314341549');
   height: 187px;
 }
-/* line 8, ../sass/brado.scss */
+/* line 9, ../sass/brado.scss */
 #branding p {
   padding-right: 4em;
   text-align: right;
 }
 
-/* line 12, ../sass/brado.scss */
+/* line 13, ../sass/brado.scss */
 .site-name {
   text-align: center;
 }
-/* line 15, ../sass/brado.scss */
+/* line 16, ../sass/brado.scss */
 .site-name a {
   font-size: 2em;
   font-weight: normal;
@@ -30,20 +31,20 @@ body {
   text-decoration: none;
 }
 
-/* line 24, ../sass/brado.scss */
+/* line 25, ../sass/brado.scss */
 .site-slogan {
   margin: -5.5em 0 1.5em;
   color: white;
 }
 
-/* line 28, ../sass/brado.scss */
+/* line 29, ../sass/brado.scss */
 .site-author {
   color: yellow;
   letter-spacing: .25em;
   text-transform: uppercase;
 }
 
-/* line 34, ../sass/brado.scss */
+/* line 35, ../sass/brado.scss */
 #block-system-main-menu a {
   display: block;
   letter-spacing: 0.25em;
@@ -52,12 +53,24 @@ body {
   text-transform: uppercase;
   color: blue;
 }
-/* line 41, ../sass/brado.scss */
+/* line 42, ../sass/brado.scss */
 #block-system-main-menu a.active {
   background-color: yellow;
 }
-/* line 43, ../sass/brado.scss */
+/* line 44, ../sass/brado.scss */
 #block-system-main-menu .expanded .menu a {
   padding-left: 3em;
   color: gray;
+}
+
+/* line 48, ../sass/brado.scss */
+#left {
+  float: left;
+  width: 200px;
+}
+
+/* line 52, ../sass/brado.scss */
+#main-content {
+  margin-left: 200px;
+  padding-left: 2em;
 }

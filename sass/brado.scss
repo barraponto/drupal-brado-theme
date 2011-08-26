@@ -3,6 +3,7 @@ body {
   margin: 0 auto; }
 
 #branding {
+  margin-bottom: 2em;
   background: image-url('header-bg.png');
   height: 187px;
   p {
@@ -43,3 +44,12 @@ body {
     .expanded .menu a {
       padding-left: 3em;
       color: gray; } }
+
+#left {
+  float: left;
+  width: 200px;
+}
+#main-content {
+  margin-left: 200px;
+  padding-left: 2em;
+}
