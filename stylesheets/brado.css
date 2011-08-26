@@ -90,23 +90,24 @@ body {
   margin-bottom: 1em;
   font-family: 'Hammersmith One', sans-serif;
   color: black;
+  font-weight: normal;
   font-size: 1.6em;
 }
-/* line 79, ../sass/brado.scss */
+/* line 80, ../sass/brado.scss */
 #main-content .node-content {
   font-size: 1.1em;
 }
-/* line 85, ../sass/brado.scss */
+/* line 86, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-foto,
 #main-content .node-personagem .field-name-field-fatos {
   width: 45%;
   float: left;
 }
-/* line 89, ../sass/brado.scss */
+/* line 90, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-foto {
   margin-left: -45%;
 }
-/* line 91, ../sass/brado.scss */
+/* line 92, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-foto img {
   border: 3px solid white;
   -moz-box-shadow: #666666 0 0 5px 0;
@@ -116,29 +117,50 @@ body {
   display: block;
   margin: 0 14px 0 auto;
 }
-/* line 97, ../sass/brado.scss */
+/* line 98, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-fatos {
   margin-top: 200px;
   background-color: #e8e1d5;
   color: #403729;
 }
-/* line 101, ../sass/brado.scss */
+/* line 102, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-fatos .field-label {
   padding: 14px 14px 0;
   color: black;
   font-weight: normal;
   font-size: 1.3em;
 }
-/* line 106, ../sass/brado.scss */
+/* line 107, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-fatos .field-items {
   padding: 0 28px 28px;
   font-size: 0.9em;
 }
-/* line 109, ../sass/brado.scss */
+/* line 110, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-fatos .field-item {
   list-style: disc outside none;
 }
-/* line 112, ../sass/brado.scss */
+/* line 113, ../sass/brado.scss */
 #main-content .node-personagem .field-name-body {
   margin-left: 50%;
+}
+
+/* line 117, ../sass/brado.scss */
+#header {
+  float: right;
+  margin-bottom: -50px;
+}
+
+/* line 121, ../sass/brado.scss */
+#block-search-form {
+  margin: 1em 2em 0 0;
+}
+/* line 125, ../sass/brado.scss */
+#block-search-form .form-text {
+  font-family: 'Hammersmith One', sans-serif;
+  text-transform: uppercase;
+  background-color: #fff4b6;
+}
+/* line 130, ../sass/brado.scss */
+#block-search-form .form-actions {
+  display: none;
 }

@@ -75,6 +75,7 @@ body {
     margin-bottom: 1em;
     font-family: 'Hammersmith One', sans-serif;
     color: black;
+    font-weight: normal;
     font-size: 1.6em; }
   .node-content {
     font-size: 1.1em;  }
@@ -111,5 +112,22 @@ body {
 
     .field-name-body {
       margin-left: 50%; } }
+}
+
+#header {
+  float: right;
+  margin-bottom: -50px; }
+
+#block-search-form {
+
+  margin: 1em 2em 0 0;
+
+  .form-text {
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    background-color: $active; }
+
+  .form-actions {
+    display: none; }
 }
 
