@@ -1,3 +1,5 @@
+@import "compass";
+
 body {
   width: 960px;
   margin: 0 auto; }
@@ -48,9 +50,50 @@ body {
 
 #left {
   float: left;
-  width: 200px;
-}
+  width: 200px; }
+
 #main-content {
   margin-left: 200px;
   padding-left: 2em;
+  line-height: 2em;
+  color: gray;
+
+  h1 {
+    color: black;
+    font-size: 1.6em; }
+  .node-content {
+    font-size: 1.1em;  }
+
+    .node-personagem {
+
+    .field-name-field-foto,
+    .field-name-field-fatos {
+      width: 45%;
+      float: left; } 
+
+    .field-name-field-foto {
+      margin-left: -45%;
+      img {
+        border: 3px solid white;
+        @include box-shadow(0 0 5px 0);
+        display: block;
+        margin: 0 14px 0 auto; } }
+
+    .field-name-field-fatos {
+      margin-top: 200px;
+      background-color: PaleGoldenRod;
+      color: brown;
+      .field-label {
+        padding: 14px 14px 0;
+        color: black;
+        font-size: 1.3em; }
+      .field-items {
+        padding: 0 28px 28px;
+        font-size: 0.9em; }
+      .field-item {
+        list-style: disc outside none; } }
+
+    .field-name-body {
+      margin-left: 50%; } }
 }
+
