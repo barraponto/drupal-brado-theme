@@ -1,5 +1,13 @@
 @import "compass";
 
+// Pallette
+$link: #116490;
+$grayed: #879298;
+$active: #FFF4B6;
+$text: #5E5E5E;
+$boxbg: #e8e1d5;
+$boxtext: #403729;
+
 body {
   width: 960px;
   margin: 0 auto; }
@@ -13,14 +21,15 @@ body {
     text-align: right; } }
 
 .site-name {
-    text-align: center;
+    text-indent: 2.4em;
 
   a { 
-    font-size: 2em;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1.6em;
     font-weight: normal;
     color: white;
     line-height: 187px;
-    letter-spacing: 1.5em;
+    letter-spacing: 2.2em;
     text-transform: uppercase;
     text-decoration: none; } }
 
@@ -41,13 +50,13 @@ body {
     line-height: 2em;
     text-decoration: none;
     text-transform: uppercase;
-    color: blue;
+    color: $link;
     &.active {
-      background-color: yellow; } } 
+      background-color: $active; } } 
     .expanded .menu a {
       padding-left: 3em;
       text-transform: none;
-      color: gray; } }
+      color: $grayed; } }
 
 #left {
   float: left;
@@ -59,9 +68,11 @@ body {
   font-family: Georgia, serif;
   letter-spacing: 0.1em;
   line-height: 2em;
-  color: gray;
+  color: $text;
 
   h1 {
+    margin-bottom: 1em;
+    font-family: 'Hammersmith One', sans-serif;
     color: black;
     font-size: 1.6em; }
   .node-content {
@@ -78,17 +89,18 @@ body {
       margin-left: -45%;
       img {
         border: 3px solid white;
-        @include box-shadow(0 0 5px 0);
+        @include box-shadow(#666 0 0 5px 0);
         display: block;
         margin: 0 14px 0 auto; } }
 
     .field-name-field-fatos {
       margin-top: 200px;
-      background-color: PaleGoldenRod;
-      color: brown;
+      background-color: $boxbg;
+      color: $boxtext;
       .field-label {
         padding: 14px 14px 0;
         color: black;
+        font-weight: normal;
         font-size: 1.3em; }
       .field-items {
         padding: 0 28px 28px;
