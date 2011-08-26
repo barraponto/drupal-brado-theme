@@ -42,3 +42,22 @@ body {
   letter-spacing: .25em;
   text-transform: uppercase;
 }
+
+/* line 34, ../sass/brado.scss */
+#block-system-main-menu a {
+  display: block;
+  letter-spacing: 0.25em;
+  line-height: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: blue;
+}
+/* line 41, ../sass/brado.scss */
+#block-system-main-menu a.active {
+  background-color: yellow;
+}
+/* line 43, ../sass/brado.scss */
+#block-system-main-menu .expanded .menu a {
+  padding-left: 3em;
+  color: gray;
+}

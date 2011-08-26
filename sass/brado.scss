@@ -29,3 +29,17 @@ body {
   color: yellow;
   letter-spacing: .25em;
   text-transform: uppercase;}
+
+#block-system-main-menu {
+  a {
+    display: block;
+    letter-spacing: 0.25em;
+    line-height: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blue;
+    &.active {
+      background-color: yellow; } } 
+    .expanded .menu a {
+      padding-left: 3em;
+      color: gray; } }
