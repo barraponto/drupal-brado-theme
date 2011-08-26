@@ -4,8 +4,23 @@ body {
   margin: 0 auto;
 }
 
-/* line 6, ../sass/brado.scss */
+/* line 5, ../sass/brado.scss */
 #branding {
   background: url('../images/header-bg.png?1314341549');
   height: 187px;
+}
+
+/* line 9, ../sass/brado.scss */
+h1.site-name {
+  text-align: center;
+}
+/* line 12, ../sass/brado.scss */
+h1.site-name a {
+  font-size: 2em;
+  font-weight: normal;
+  color: white;
+  line-height: 187px;
+  letter-spacing: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
