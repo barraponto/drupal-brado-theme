@@ -30,6 +30,7 @@ body {
     color: white;
     line-height: 187px;
     letter-spacing: 2.2em;
+    @include text-shadow(black 0 0 3px);
     text-transform: uppercase;
     text-decoration: none; } }
 

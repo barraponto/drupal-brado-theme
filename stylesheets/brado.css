@@ -28,28 +28,29 @@ body {
   color: white;
   line-height: 187px;
   letter-spacing: 2.2em;
+  text-shadow: black 0 0 3px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-/* line 36, ../sass/brado.scss */
+/* line 37, ../sass/brado.scss */
 .site-slogan {
   margin: -5.5em 0 1.5em;
   color: white;
 }
 
-/* line 40, ../sass/brado.scss */
+/* line 41, ../sass/brado.scss */
 .site-author {
   color: yellow;
   letter-spacing: .25em;
   text-transform: uppercase;
 }
 
-/* line 45, ../sass/brado.scss */
+/* line 46, ../sass/brado.scss */
 #block-system-main-menu {
   font-family: 'Hammersmith One', sans-serif;
 }
-/* line 47, ../sass/brado.scss */
+/* line 48, ../sass/brado.scss */
 #block-system-main-menu a {
   display: block;
   letter-spacing: 0.25em;
@@ -58,24 +59,24 @@ body {
   text-transform: uppercase;
   color: #116490;
 }
-/* line 54, ../sass/brado.scss */
+/* line 55, ../sass/brado.scss */
 #block-system-main-menu a.active {
   background-color: #fff4b6;
 }
-/* line 56, ../sass/brado.scss */
+/* line 57, ../sass/brado.scss */
 #block-system-main-menu .expanded .menu a {
   padding-left: 3em;
   text-transform: none;
   color: #879298;
 }
 
-/* line 61, ../sass/brado.scss */
+/* line 62, ../sass/brado.scss */
 #left {
   float: left;
   width: 200px;
 }
 
-/* line 65, ../sass/brado.scss */
+/* line 66, ../sass/brado.scss */
 #main-content {
   margin-left: 200px;
   padding-left: 2em;
@@ -84,28 +85,28 @@ body {
   line-height: 2em;
   color: #5e5e5e;
 }
-/* line 73, ../sass/brado.scss */
+/* line 74, ../sass/brado.scss */
 #main-content h1 {
   margin-bottom: 1em;
   font-family: 'Hammersmith One', sans-serif;
   color: black;
   font-size: 1.6em;
 }
-/* line 78, ../sass/brado.scss */
+/* line 79, ../sass/brado.scss */
 #main-content .node-content {
   font-size: 1.1em;
 }
-/* line 84, ../sass/brado.scss */
+/* line 85, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-foto,
 #main-content .node-personagem .field-name-field-fatos {
   width: 45%;
   float: left;
 }
-/* line 88, ../sass/brado.scss */
+/* line 89, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-foto {
   margin-left: -45%;
 }
-/* line 90, ../sass/brado.scss */
+/* line 91, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-foto img {
   border: 3px solid white;
   -moz-box-shadow: #666666 0 0 5px 0;
@@ -115,29 +116,29 @@ body {
   display: block;
   margin: 0 14px 0 auto;
 }
-/* line 96, ../sass/brado.scss */
+/* line 97, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-fatos {
   margin-top: 200px;
   background-color: #e8e1d5;
   color: #403729;
 }
-/* line 100, ../sass/brado.scss */
+/* line 101, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-fatos .field-label {
   padding: 14px 14px 0;
   color: black;
   font-weight: normal;
   font-size: 1.3em;
 }
-/* line 105, ../sass/brado.scss */
+/* line 106, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-fatos .field-items {
   padding: 0 28px 28px;
   font-size: 0.9em;
 }
-/* line 108, ../sass/brado.scss */
+/* line 109, ../sass/brado.scss */
 #main-content .node-personagem .field-name-field-fatos .field-item {
   list-style: disc outside none;
 }
-/* line 111, ../sass/brado.scss */
+/* line 112, ../sass/brado.scss */
 #main-content .node-personagem .field-name-body {
   margin-left: 50%;
 }
