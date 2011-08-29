@@ -1,7 +1,7 @@
 /* line 11, ../sass/brado.scss */
 body {
   width: 960px;
-  margin: 0 auto;
+  margin: 2.5em auto;
 }
 
 /* line 15, ../sass/brado.scss */
@@ -47,11 +47,11 @@ body {
 }
 
 /* line 46, ../sass/brado.scss */
-#block-system-main-menu {
+#block-system-main-menu .block-content {
   font-family: 'Hammersmith One', sans-serif;
 }
 /* line 48, ../sass/brado.scss */
-#block-system-main-menu a {
+#block-system-main-menu .block-content a {
   display: block;
   letter-spacing: 0.25em;
   line-height: 2em;
@@ -60,11 +60,11 @@ body {
   color: #116490;
 }
 /* line 55, ../sass/brado.scss */
-#block-system-main-menu a.active {
+#block-system-main-menu .block-content a.active {
   background-color: #fff4b6;
 }
 /* line 57, ../sass/brado.scss */
-#block-system-main-menu .expanded .menu a {
+#block-system-main-menu .block-content .expanded .menu a {
   padding-left: 3em;
   text-transform: none;
   color: #879298;
@@ -77,7 +77,7 @@ body {
 }
 
 /* line 66, ../sass/brado.scss */
-#main-content {
+#left + #main-content {
   margin-left: 200px;
   padding-left: 2em;
   font-family: Georgia, serif;
@@ -86,7 +86,7 @@ body {
   color: #5e5e5e;
 }
 /* line 74, ../sass/brado.scss */
-#main-content h1 {
+#left + #main-content h1 {
   margin-bottom: 1em;
   font-family: 'Hammersmith One', sans-serif;
   color: black;
@@ -94,21 +94,21 @@ body {
   font-size: 1.6em;
 }
 /* line 80, ../sass/brado.scss */
-#main-content .node-content {
+#left + #main-content .node-content {
   font-size: 1.1em;
 }
 /* line 86, ../sass/brado.scss */
-#main-content .node-personagem .field-name-field-foto,
-#main-content .node-personagem .field-name-field-fatos {
+#left + #main-content .node-personagem .field-name-field-foto,
+#left + #main-content .node-personagem .field-name-field-fatos {
   width: 45%;
   float: left;
 }
 /* line 90, ../sass/brado.scss */
-#main-content .node-personagem .field-name-field-foto {
+#left + #main-content .node-personagem .field-name-field-foto {
   margin-left: -45%;
 }
 /* line 92, ../sass/brado.scss */
-#main-content .node-personagem .field-name-field-foto img {
+#left + #main-content .node-personagem .field-name-field-foto img {
   border: 3px solid white;
   -moz-box-shadow: #666666 0 0 5px 0;
   -webkit-box-shadow: #666666 0 0 5px 0;
@@ -118,29 +118,29 @@ body {
   margin: 0 14px 0 auto;
 }
 /* line 98, ../sass/brado.scss */
-#main-content .node-personagem .field-name-field-fatos {
+#left + #main-content .node-personagem .field-name-field-fatos {
   margin-top: 200px;
   background-color: #e8e1d5;
   color: #403729;
 }
 /* line 102, ../sass/brado.scss */
-#main-content .node-personagem .field-name-field-fatos .field-label {
+#left + #main-content .node-personagem .field-name-field-fatos .field-label {
   padding: 14px 14px 0;
   color: black;
   font-weight: normal;
   font-size: 1.3em;
 }
 /* line 107, ../sass/brado.scss */
-#main-content .node-personagem .field-name-field-fatos .field-items {
+#left + #main-content .node-personagem .field-name-field-fatos .field-items {
   padding: 0 28px 28px;
   font-size: 0.9em;
 }
 /* line 110, ../sass/brado.scss */
-#main-content .node-personagem .field-name-field-fatos .field-item {
+#left + #main-content .node-personagem .field-name-field-fatos .field-item {
   list-style: disc outside none;
 }
 /* line 113, ../sass/brado.scss */
-#main-content .node-personagem .field-name-body {
+#left + #main-content .node-personagem .field-name-body {
   margin-left: 50%;
 }
 
@@ -163,4 +163,29 @@ body {
 /* line 130, ../sass/brado.scss */
 #block-search-form .form-actions {
   display: none;
+}
+
+/* line 137, ../sass/brado.scss */
+.view-id-brado_personagens.view-display-id-page .views-row {
+  margin-bottom: 1em;
+}
+/* line 140, ../sass/brado.scss */
+.view-id-brado_personagens.view-display-id-page .views-field-field-foto {
+  float: left;
+  width: 100px;
+}
+/* line 144, ../sass/brado.scss */
+.view-id-brado_personagens.view-display-id-page .views-field-field-foto a {
+  display: block;
+  text-align: center;
+}
+/* line 151, ../sass/brado.scss */
+.view-id-brado_personagens.view-display-id-page .views-field-field-foto ~ div {
+  margin-left: 114px;
+}
+/* line 155, ../sass/brado.scss */
+.view-id-brado_personagens.view-display-id-page .views-field-title a {
+  color: #116490;
+  text-decoration: none;
+  font-weight: bold;
 }
