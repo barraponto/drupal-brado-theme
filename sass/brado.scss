@@ -53,7 +53,9 @@ body {
     text-transform: uppercase;
     color: $link;
     &.active {
-      background-color: $active; } } 
+      background-color: $active; }
+    &:hover {
+      background-color: lighten($active, 10%); } } 
     .expanded .menu a {
       padding-left: 3em;
       text-transform: none;
@@ -64,12 +66,23 @@ body {
   width: 200px; }
 
 #left + #main-content {
-  margin-left: 200px;
-  padding-left: 2em;
+}
+
+#main-content {
   font-family: Georgia, serif;
   letter-spacing: 0.1em;
   line-height: 2em;
   color: $text;
+
+  #left + & {
+    margin-left: 200px;
+    padding-left: 2em; }
+
+  body.front & .field-name-body {
+    font-size: 1.1em;
+    line-height: 1.66em;
+    color: #777;
+  }
 
   h1 {
     margin-bottom: 1em;
@@ -78,7 +91,7 @@ body {
     font-weight: normal;
     font-size: 1.6em; }
   .node-content {
-    font-size: 1.1em;  }
+    font-size: 1.1em; }
 
     .node-personagem {
 
@@ -156,3 +169,22 @@ body {
       color: $link;
       text-decoration: none;
       font-weight: bold; } } }
+
+body.node-type-album {
+  .field-name-field-fotos {
+    .field-items {
+      @include pie-clearfix; }
+    .field-item {
+      float: left;
+      width: 200px;
+      margin-bottom: 1em; }
+  }
+}
+
+#block-system-powered-by {
+  text-align: right;
+  font-family: 'Hammersmith One', sans-serif;
+  color: lighten($text, 25%);
+  a { text-decoration: none; 
+    color: $link; }
+}

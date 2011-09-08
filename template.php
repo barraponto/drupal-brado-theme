@@ -7,6 +7,12 @@ function brado_preprocess_page(&$vars) {
   drupal_add_css('http://fonts.googleapis.com/css?family=Hammersmith+One', 'external');
 }
 
+function brado_process_page(&$vars) {
+  if ($vars['is_front']) {
+    $vars['title'] = NULL;
+  }
+}
+
 function brado_form_search_block_form_alter(&$form, &$form_state) {
   $form['search_block_form']['#attributes']['placeholder'] = 'Pesquisa';
   $form['search_block_form']['#size'] = 25;
