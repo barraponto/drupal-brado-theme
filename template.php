@@ -11,6 +11,9 @@ function brado_process_page(&$vars) {
   if ($vars['is_front']) {
     $vars['title'] = NULL;
   }
+  if (isset($vars['node'])) {
+    $vars['title_suffix'] = l('Editar', $vars['node']->nid . '/edit');
+  }
 }
 
 function brado_form_search_block_form_alter(&$form, &$form_state) {

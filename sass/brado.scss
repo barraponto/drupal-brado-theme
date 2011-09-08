@@ -8,6 +8,11 @@ $text: #5E5E5E;
 $boxbg: #e8e1d5;
 $boxtext: #403729;
 
+@mixin link-styles() {
+  @include link-colors($link);
+  text-decoration: none;
+}
+
 body {
   width: 960px;
   margin: 2.5em auto; }
@@ -46,12 +51,11 @@ body {
 #block-system-main-menu .block-content {
   font-family: 'Hammersmith One', sans-serif;
   a {
+    @include link-styles;
     display: block;
     letter-spacing: 0.25em;
     line-height: 2em;
-    text-decoration: none;
     text-transform: uppercase;
-    color: $link;
     &.active {
       background-color: $active; }
     &:hover {
@@ -78,10 +82,9 @@ body {
     margin-left: 200px;
     padding-left: 2em; }
 
-  body.front & .field-name-body {
-    font-size: 1.1em;
-    line-height: 1.66em;
-    color: #777;
+  > a:first-child {
+    @include link-styles;
+    font-size: .85em;
   }
 
   h1 {
@@ -89,7 +92,20 @@ body {
     font-family: 'Hammersmith One', sans-serif;
     color: black;
     font-weight: normal;
-    font-size: 1.6em; }
+    font-size: 1.6em; 
+
+    + a  { 
+      @include link-styles;
+      display: block;
+      font-size: .85em;
+      margin: -2em 0 2em; } }
+
+  body.front & .field-name-body {
+    font-size: 1.1em;
+    line-height: 1.66em;
+    color: #777;
+  }
+
   .node-content {
     font-size: 1.1em; }
 
@@ -166,8 +182,7 @@ body {
 
   .views-field-title {
     a {
-      color: $link;
-      text-decoration: none;
+      @include link-styles;
       font-weight: bold; } } }
 
 body.node-type-album {
@@ -185,6 +200,6 @@ body.node-type-album {
   text-align: right;
   font-family: 'Hammersmith One', sans-serif;
   color: lighten($text, 25%);
-  a { text-decoration: none; 
-    color: $link; }
+  a {
+    @include link-styles; }
 }
