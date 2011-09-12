@@ -61,9 +61,12 @@ body {
     &:hover {
       background-color: lighten($active, 10%); } } 
     .expanded .menu a {
-      padding-left: 3em;
+      padding-left: 1.5em;
       text-transform: none;
-      color: $grayed; } }
+      letter-spacing: 0.1em;
+      color: $grayed; 
+      + .menu a {
+        padding-left: 3em; } } }
 
 #left {
   float: left;
