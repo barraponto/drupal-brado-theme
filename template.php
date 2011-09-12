@@ -11,8 +11,8 @@ function brado_process_page(&$vars) {
   if ($vars['is_front']) {
     $vars['title'] = NULL;
   }
-  if (isset($vars['node'])) {
-    $vars['title_suffix'] = l('Editar', $vars['node']->nid . '/edit');
+  if (isset($vars['node']) && node_access('update',$vars['node'])) {
+    $vars['title_suffix'] = l('Editar', 'node/' . $vars['node']->nid . '/edit');
   }
 }
 
