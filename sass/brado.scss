@@ -204,3 +204,19 @@ body.node-type-album {
   a {
     @include link-styles; }
 }
+
+.view-id-brado_videos.view-display-id-page {
+  .view-content {
+    @include pie-clearfix; }
+  .views-row {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 220px; }
+  .views-field-title {
+    margin-top: -0.5em;
+    min-height: 2em;
+    margin-bottom: 1em;
+    a { 
+    @include link-styles; } }
+}
