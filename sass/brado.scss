@@ -231,3 +231,20 @@ body.node-type-album {
   margin-top: 1em;
   }
 }
+
+.node-type-page .field-name-field-banner {
+  margin-bottom: 1em;
+  .field-items {
+    text-align: center; }
+  .field-item {
+    display: inline-block; }
+  img {
+    @include border-radius;
+    @include box-shadow;
+    border-color: 3px white solid;
+    display: block; }
+  .copyright {
+    font-size: .75em;
+    text-align: right;}
+}
+

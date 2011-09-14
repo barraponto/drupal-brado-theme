@@ -290,3 +290,36 @@ body.node-type-album .field-name-field-fotos .field-item {
   letter-spacing: 0.25em;
   margin-top: 1em;
 }
+
+/* line 235, ../sass/brado.scss */
+.node-type-page .field-name-field-banner {
+  margin-bottom: 1em;
+}
+/* line 237, ../sass/brado.scss */
+.node-type-page .field-name-field-banner .field-items {
+  text-align: center;
+}
+/* line 239, ../sass/brado.scss */
+.node-type-page .field-name-field-banner .field-item {
+  display: inline-block;
+}
+/* line 241, ../sass/brado.scss */
+.node-type-page .field-name-field-banner img {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  border-color: 3px white solid;
+  display: block;
+}
+/* line 246, ../sass/brado.scss */
+.node-type-page .field-name-field-banner .copyright {
+  font-size: .75em;
+  text-align: right;
+}
