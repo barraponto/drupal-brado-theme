@@ -220,3 +220,14 @@ body.node-type-album {
     a { 
     @include link-styles; } }
 }
+
+#block-views-patrocinadores-block {
+  h3 { 
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: normal;
+  color: $text;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  margin-top: 1em;
+  }
+}
