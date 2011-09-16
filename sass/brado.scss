@@ -93,10 +93,10 @@ body {
     color: black;
     font-weight: normal;
     font-size: 1.6em; 
+    display: inline;
 
     + a  { 
       @include link-styles;
-      display: block;
       font-size: .85em;
       margin: -2em 0 2em; } }
 

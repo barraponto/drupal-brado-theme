@@ -110,12 +110,12 @@ body {
   color: black;
   font-weight: normal;
   font-size: 1.6em;
+  display: inline;
 }
-/* line 97, ../sass/brado.scss */
+/* line 98, ../sass/brado.scss */
 #main-content h1 + a {
   color: #116490;
   text-decoration: none;
-  display: block;
   font-size: .85em;
   margin: -2em 0 2em;
 }
