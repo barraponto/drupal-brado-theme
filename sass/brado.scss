@@ -107,7 +107,22 @@ body {
   }
 
   .node-content {
-    font-size: 1.1em; } }
+    font-size: 1.1em;
+  
+  .field-name-field-tags {
+    .field-label, .field-item, .field-items {
+      display: inline;
+      float: none;
+      line-height: 12px; }
+    .field-item {
+      padding: 0 .25em; 
+      font-size: 0.75em;
+      a { 
+        @include link-styles;
+        line-height: 12px; } }
+  } }
+  
+}
 
 #header {
   float: right;
@@ -219,18 +234,7 @@ body.node-type-album {
 
 .node-personagem {
 
-  .field-name-field-tags {
-    .field-label, .field-item, .field-items {
-      display: inline;
-      float: none;
-      line-height: 12px; }
-    .field-item {
-      padding: 0 .25em; 
-      font-size: 0.75em;
-      a { 
-        @include link-styles;
-        line-height: 12px; } }
-  }
+
 
   .fotos-e-fatos {
     float: left;
