@@ -1,5 +1,14 @@
 <?php
 
+function brado_preprocess_field(&$variables, $hook) {
+  if($variables['element']['#field_name'] == 'field_tags') {
+    $clearfix = array_search('clearfix', $variables['classes_array']);
+    if ($clearfix) {
+      unset($variables['classes_array'][$clearfix]);
+    }
+  }
+}
+
 function brado_preprocess_node(&$vars) {
   $vars['content']['field_foto']['#prefix'] = '<div class="fotos-e-fatos">';
   $vars['content']['field_fatos']['#suffix'] = '</div>';
