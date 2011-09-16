@@ -198,36 +198,19 @@ body.front #main-content .field-name-body {
   font-weight: bold;
 }
 
-/* line 175, ../sass/brado.scss */
-body.node-type-album .field-name-field-fotos .field-items {
-  *zoom: 1;
-}
-/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.2-p180@compassdev/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-body.node-type-album .field-name-field-fotos .field-items:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 177, ../sass/brado.scss */
-body.node-type-album .field-name-field-fotos .field-item {
-  float: left;
-  width: 200px;
-  margin-bottom: 1em;
-}
-
-/* line 184, ../sass/brado.scss */
+/* line 173, ../sass/brado.scss */
 #block-system-powered-by {
   text-align: right;
   font-family: 'Hammersmith One', sans-serif;
   color: #9e9e9e;
 }
-/* line 188, ../sass/brado.scss */
+/* line 177, ../sass/brado.scss */
 #block-system-powered-by a {
   color: #116490;
   text-decoration: none;
 }
 
-/* line 193, ../sass/brado.scss */
+/* line 182, ../sass/brado.scss */
 .view-id-brado_videos.view-display-id-page .view-content {
   *zoom: 1;
 }
@@ -237,26 +220,26 @@ body.node-type-album .field-name-field-fotos .field-item {
   display: table;
   clear: both;
 }
-/* line 195, ../sass/brado.scss */
+/* line 184, ../sass/brado.scss */
 .view-id-brado_videos.view-display-id-page .views-row {
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
   width: 220px;
 }
-/* line 200, ../sass/brado.scss */
+/* line 189, ../sass/brado.scss */
 .view-id-brado_videos.view-display-id-page .views-field-title {
   margin-top: -0.5em;
   min-height: 2em;
   margin-bottom: 1em;
 }
-/* line 204, ../sass/brado.scss */
+/* line 193, ../sass/brado.scss */
 .view-id-brado_videos.view-display-id-page .views-field-title a {
   color: #116490;
   text-decoration: none;
 }
 
-/* line 209, ../sass/brado.scss */
+/* line 198, ../sass/brado.scss */
 #block-views-patrocinadores-block h3 {
   font-family: 'Hammersmith One', sans-serif;
   font-weight: normal;
@@ -266,19 +249,19 @@ body.node-type-album .field-name-field-fotos .field-item {
   margin-top: 1em;
 }
 
-/* line 219, ../sass/brado.scss */
+/* line 208, ../sass/brado.scss */
 .node-type-page .field-name-field-banner {
   margin-bottom: 1em;
 }
-/* line 221, ../sass/brado.scss */
+/* line 210, ../sass/brado.scss */
 .node-type-page .field-name-field-banner .field-items {
   text-align: center;
 }
-/* line 223, ../sass/brado.scss */
+/* line 212, ../sass/brado.scss */
 .node-type-page .field-name-field-banner .field-item {
   display: inline-block;
 }
-/* line 225, ../sass/brado.scss */
+/* line 214, ../sass/brado.scss */
 .node-type-page .field-name-field-banner img {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -293,24 +276,24 @@ body.node-type-album .field-name-field-fotos .field-item {
   border-color: 3px white solid;
   display: block;
 }
-/* line 230, ../sass/brado.scss */
+/* line 219, ../sass/brado.scss */
 .node-type-page .field-name-field-banner .copyright {
   font-size: .75em;
   text-align: right;
 }
 
-/* line 239, ../sass/brado.scss */
+/* line 226, ../sass/brado.scss */
 .node-personagem .fotos-e-fatos {
   float: left;
   width: 45%;
   padding: 0 2em 1em 0;
 }
-/* line 249, ../sass/brado.scss */
+/* line 236, ../sass/brado.scss */
 .node-personagem .field-name-field-foto {
   float: left;
   width: 100%;
 }
-/* line 252, ../sass/brado.scss */
+/* line 239, ../sass/brado.scss */
 .node-personagem .field-name-field-foto img {
   border: 3px solid white;
   -moz-box-shadow: #666666 0 0 5px 0;
@@ -320,25 +303,25 @@ body.node-type-album .field-name-field-fotos .field-item {
   display: block;
   margin: 0 14px 0 auto;
 }
-/* line 258, ../sass/brado.scss */
+/* line 245, ../sass/brado.scss */
 .node-personagem .field-name-field-fatos {
   margin-top: 222px;
   background-color: #e8e1d5;
   color: #403729;
 }
-/* line 262, ../sass/brado.scss */
+/* line 249, ../sass/brado.scss */
 .node-personagem .field-name-field-fatos .field-label {
   padding: 14px 14px 0;
   color: black;
   font-weight: normal;
   font-size: 1.3em;
 }
-/* line 267, ../sass/brado.scss */
+/* line 254, ../sass/brado.scss */
 .node-personagem .field-name-field-fatos .field-items {
   padding: 0 28px 14px;
   font-size: 0.9em;
 }
-/* line 270, ../sass/brado.scss */
+/* line 257, ../sass/brado.scss */
 .node-personagem .field-name-field-fatos .field-item {
   list-style: disc outside none;
 }

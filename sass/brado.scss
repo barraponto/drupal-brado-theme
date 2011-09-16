@@ -170,17 +170,6 @@ body {
       @include link-styles;
       font-weight: bold; } } }
 
-body.node-type-album {
-  .field-name-field-fotos {
-    .field-items {
-      @include pie-clearfix; }
-    .field-item {
-      float: left;
-      width: 200px;
-      margin-bottom: 1em; }
-  }
-}
-
 #block-system-powered-by {
   text-align: right;
   font-family: 'Hammersmith One', sans-serif;
@@ -233,8 +222,6 @@ body.node-type-album {
 }
 
 .node-personagem {
-
-
 
   .fotos-e-fatos {
     float: left;
