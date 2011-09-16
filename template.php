@@ -10,8 +10,10 @@ function brado_preprocess_field(&$variables, $hook) {
 }
 
 function brado_preprocess_node(&$vars) {
+  if ($vars['node']->type == 'personagem') {
   $vars['content']['field_foto']['#prefix'] = '<div class="fotos-e-fatos">';
   $vars['content']['field_fatos']['#suffix'] = '</div>';
+  }
 }
 
 function brado_preprocess_page(&$vars) {
