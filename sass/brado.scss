@@ -107,41 +107,7 @@ body {
   }
 
   .node-content {
-    font-size: 1.1em; }
-
-    .node-personagem {
-
-    .field-name-field-foto,
-    .field-name-field-fatos {
-      width: 45%;
-      float: left; } 
-
-    .field-name-field-foto {
-      margin-left: -45%;
-      img {
-        border: 3px solid white;
-        @include box-shadow(#666 0 0 5px 0);
-        display: block;
-        margin: 0 14px 0 auto; } }
-
-    .field-name-field-fatos {
-      margin-top: 200px;
-      background-color: $boxbg;
-      color: $boxtext;
-      .field-label {
-        padding: 14px 14px 0;
-        color: black;
-        font-weight: normal;
-        font-size: 1.3em; }
-      .field-items {
-        padding: 0 28px 28px;
-        font-size: 0.9em; }
-      .field-item {
-        list-style: disc outside none; } }
-
-    .field-name-body {
-      margin-left: 50%; } }
-}
+    font-size: 1.1em; } }
 
 #header {
   float: right;
@@ -251,3 +217,54 @@ body.node-type-album {
     text-align: right;}
 }
 
+.node-personagem {
+
+  .field-name-field-tags {
+    .field-label, .field-item, .field-items {
+      display: inline;
+      float: none;
+      line-height: 12px; }
+    .field-item {
+      padding: 0 .25em; 
+      font-size: 0.75em;
+      a { 
+        @include link-styles;
+        line-height: 12px; } }
+  }
+
+  .fotos-e-fatos {
+    float: left;
+    width: 45%;
+    padding: 0 2em 1em 0;
+  }
+
+  .field-name-field-foto,
+  .field-name-field-fatos {
+  } 
+
+  .field-name-field-foto {
+    float: left;
+    width: 100%;
+    img {
+      border: 3px solid white;
+      @include box-shadow(#666 0 0 5px 0);
+      display: block;
+      margin: 0 14px 0 auto; } }
+
+  .field-name-field-fatos {
+    margin-top: 222px;
+    background-color: $boxbg;
+    color: $boxtext;
+    .field-label {
+      padding: 14px 14px 0;
+      color: black;
+      font-weight: normal;
+      font-size: 1.3em; }
+    .field-items {
+      padding: 0 28px 14px;
+      font-size: 0.9em; }
+    .field-item {
+      list-style: disc outside none; } }
+
+  .field-name-body { }
+}
