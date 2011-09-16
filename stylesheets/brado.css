@@ -125,92 +125,104 @@ body.front #main-content .field-name-body {
   line-height: 1.66em;
   color: #777;
 }
-/* line 109, ../sass/brado.scss */
-#main-content .node-content {
+/* line 110, ../sass/brado.scss */
+#main-content .node-content,
+#main-content .view-header {
   font-size: 1.1em;
+  line-height: 20px;
 }
-/* line 113, ../sass/brado.scss */
-#main-content .node-content .field-name-field-tags .field-label, #main-content .node-content .field-name-field-tags .field-item, #main-content .node-content .field-name-field-tags .field-items {
+/* line 114, ../sass/brado.scss */
+#main-content .node-content .field-name-field-tags,
+#main-content .view-header .field-name-field-tags {
+  margin-bottom: 3em;
+}
+/* line 116, ../sass/brado.scss */
+#main-content .node-content .field-name-field-tags .field-label, #main-content .node-content .field-name-field-tags .field-item, #main-content .node-content .field-name-field-tags .field-items,
+#main-content .view-header .field-name-field-tags .field-label,
+#main-content .view-header .field-name-field-tags .field-item,
+#main-content .view-header .field-name-field-tags .field-items {
   display: inline;
   float: none;
   line-height: 12px;
 }
-/* line 117, ../sass/brado.scss */
-#main-content .node-content .field-name-field-tags .field-item {
+/* line 120, ../sass/brado.scss */
+#main-content .node-content .field-name-field-tags .field-item,
+#main-content .view-header .field-name-field-tags .field-item {
   padding: 0 .25em;
   font-size: 0.75em;
 }
-/* line 120, ../sass/brado.scss */
-#main-content .node-content .field-name-field-tags .field-item a {
+/* line 123, ../sass/brado.scss */
+#main-content .node-content .field-name-field-tags .field-item a,
+#main-content .view-header .field-name-field-tags .field-item a {
   color: #116490;
   text-decoration: none;
   line-height: 12px;
 }
 
-/* line 127, ../sass/brado.scss */
+/* line 130, ../sass/brado.scss */
 #header {
   float: right;
   margin-bottom: -50px;
 }
 
-/* line 131, ../sass/brado.scss */
+/* line 134, ../sass/brado.scss */
 #block-search-form {
   margin: 1em 2em 0 0;
 }
-/* line 135, ../sass/brado.scss */
+/* line 138, ../sass/brado.scss */
 #block-search-form .form-text {
   font-family: 'Hammersmith One', sans-serif;
   text-transform: uppercase;
   background-color: #fff4b6;
 }
-/* line 140, ../sass/brado.scss */
+/* line 143, ../sass/brado.scss */
 #block-search-form .form-actions {
   display: none;
 }
 
-/* line 147, ../sass/brado.scss */
+/* line 150, ../sass/brado.scss */
 .view-id-brado_personagens.view-display-id-page .view-header p {
   margin-bottom: 1em;
 }
-/* line 150, ../sass/brado.scss */
+/* line 153, ../sass/brado.scss */
 .view-id-brado_personagens.view-display-id-page .views-row {
   min-height: 100px;
   margin-bottom: 1em;
 }
-/* line 154, ../sass/brado.scss */
+/* line 157, ../sass/brado.scss */
 .view-id-brado_personagens.view-display-id-page .views-field-field-foto {
   float: left;
   width: 100px;
 }
-/* line 158, ../sass/brado.scss */
+/* line 161, ../sass/brado.scss */
 .view-id-brado_personagens.view-display-id-page .views-field-field-foto a {
   display: block;
   text-align: center;
 }
-/* line 165, ../sass/brado.scss */
+/* line 168, ../sass/brado.scss */
 .view-id-brado_personagens.view-display-id-page .views-field-field-foto ~ div {
   margin-left: 114px;
 }
-/* line 169, ../sass/brado.scss */
+/* line 172, ../sass/brado.scss */
 .view-id-brado_personagens.view-display-id-page .views-field-title a {
   color: #116490;
   text-decoration: none;
   font-weight: bold;
 }
 
-/* line 173, ../sass/brado.scss */
+/* line 176, ../sass/brado.scss */
 #block-system-powered-by {
   text-align: right;
   font-family: 'Hammersmith One', sans-serif;
   color: #9e9e9e;
 }
-/* line 177, ../sass/brado.scss */
+/* line 180, ../sass/brado.scss */
 #block-system-powered-by a {
   color: #116490;
   text-decoration: none;
 }
 
-/* line 182, ../sass/brado.scss */
+/* line 185, ../sass/brado.scss */
 .view-id-brado_videos.view-display-id-page .view-content {
   *zoom: 1;
 }
@@ -220,26 +232,26 @@ body.front #main-content .field-name-body {
   display: table;
   clear: both;
 }
-/* line 184, ../sass/brado.scss */
+/* line 187, ../sass/brado.scss */
 .view-id-brado_videos.view-display-id-page .views-row {
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
   width: 220px;
 }
-/* line 189, ../sass/brado.scss */
+/* line 192, ../sass/brado.scss */
 .view-id-brado_videos.view-display-id-page .views-field-title {
   margin-top: -0.5em;
   min-height: 2em;
   margin-bottom: 1em;
 }
-/* line 193, ../sass/brado.scss */
+/* line 196, ../sass/brado.scss */
 .view-id-brado_videos.view-display-id-page .views-field-title a {
   color: #116490;
   text-decoration: none;
 }
 
-/* line 198, ../sass/brado.scss */
+/* line 201, ../sass/brado.scss */
 #block-views-patrocinadores-block h3 {
   font-family: 'Hammersmith One', sans-serif;
   font-weight: normal;
@@ -249,19 +261,19 @@ body.front #main-content .field-name-body {
   margin-top: 1em;
 }
 
-/* line 208, ../sass/brado.scss */
+/* line 211, ../sass/brado.scss */
 .node-type-page .field-name-field-banner {
   margin-bottom: 1em;
 }
-/* line 210, ../sass/brado.scss */
+/* line 213, ../sass/brado.scss */
 .node-type-page .field-name-field-banner .field-items {
   text-align: center;
 }
-/* line 212, ../sass/brado.scss */
+/* line 215, ../sass/brado.scss */
 .node-type-page .field-name-field-banner .field-item {
   display: inline-block;
 }
-/* line 214, ../sass/brado.scss */
+/* line 217, ../sass/brado.scss */
 .node-type-page .field-name-field-banner img {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -276,24 +288,24 @@ body.front #main-content .field-name-body {
   border-color: 3px white solid;
   display: block;
 }
-/* line 219, ../sass/brado.scss */
+/* line 222, ../sass/brado.scss */
 .node-type-page .field-name-field-banner .copyright {
   font-size: .75em;
   text-align: right;
 }
 
-/* line 226, ../sass/brado.scss */
+/* line 229, ../sass/brado.scss */
 .node-personagem .fotos-e-fatos {
   float: left;
   width: 45%;
   padding: 0 2em 1em 0;
 }
-/* line 236, ../sass/brado.scss */
+/* line 239, ../sass/brado.scss */
 .node-personagem .field-name-field-foto {
   float: left;
   width: 100%;
 }
-/* line 239, ../sass/brado.scss */
+/* line 242, ../sass/brado.scss */
 .node-personagem .field-name-field-foto img {
   border: 3px solid white;
   -moz-box-shadow: #666666 0 0 5px 0;
@@ -303,25 +315,25 @@ body.front #main-content .field-name-body {
   display: block;
   margin: 0 14px 0 auto;
 }
-/* line 245, ../sass/brado.scss */
+/* line 248, ../sass/brado.scss */
 .node-personagem .field-name-field-fatos {
   margin-top: 222px;
   background-color: #e8e1d5;
   color: #403729;
 }
-/* line 249, ../sass/brado.scss */
+/* line 252, ../sass/brado.scss */
 .node-personagem .field-name-field-fatos .field-label {
   padding: 14px 14px 0;
   color: black;
   font-weight: normal;
   font-size: 1.3em;
 }
-/* line 254, ../sass/brado.scss */
+/* line 257, ../sass/brado.scss */
 .node-personagem .field-name-field-fatos .field-items {
   padding: 0 28px 14px;
   font-size: 0.9em;
 }
-/* line 257, ../sass/brado.scss */
+/* line 260, ../sass/brado.scss */
 .node-personagem .field-name-field-fatos .field-item {
   list-style: disc outside none;
 }

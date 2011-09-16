@@ -106,10 +106,13 @@ body {
     color: #777;
   }
 
-  .node-content {
+  .node-content,
+  .view-header {
     font-size: 1.1em;
+    line-height: 20px;
   
   .field-name-field-tags {
+    margin-bottom: 3em;
     .field-label, .field-item, .field-items {
       display: inline;
       float: none;
