@@ -11,8 +11,11 @@ function brado_preprocess_field(&$variables, $hook) {
 
 function brado_preprocess_node(&$vars) {
   if ($vars['node']->type == 'personagem') {
-  $vars['content']['field_foto']['#prefix'] = '<div class="fotos-e-fatos">';
-  $vars['content']['field_fatos']['#suffix'] = '</div>';
+    $vars['content']['field_foto']['#prefix'] = '<div class="fotos-e-fatos">';
+    $vars['content']['field_fatos']['#suffix'] = '</div>';
+  }
+  if ($vars['is_front'] && isset($vars['content']['field_tags'])) {
+    hide($vars['content']['field_tags']);
   }
 }
 
