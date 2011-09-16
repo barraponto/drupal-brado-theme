@@ -1,5 +1,10 @@
 <?php
 
+function brado_preprocess_node(&$vars) {
+  $vars['content']['field_foto']['#prefix'] = '<div class="fotos-e-fatos">';
+  $vars['content']['field_fatos']['#suffix'] = '</div>';
+}
+
 function brado_preprocess_page(&$vars) {
   $vars['breadcrumb'] = FALSE;
   $vars['primary_local_tasks'] = FALSE;
