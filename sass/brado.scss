@@ -79,8 +79,9 @@ body {
   color: $text;
 
   #left + & {
-    margin-left: 200px;
-    padding-left: 2em; }
+    float: left;
+    width: 740px;
+    padding-left: 20px; }
 
   > a:first-child {
     @include link-styles;
