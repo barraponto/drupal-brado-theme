@@ -286,3 +286,9 @@ body {
   a { 
     @include link-styles; }
 }
+
+.prose {
+  a {
+    @include link-styles;
+    &:hover {
+    text-decoration: underline; } } }

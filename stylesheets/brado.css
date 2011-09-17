@@ -392,3 +392,13 @@ body.front #main-content .field-name-body {
   color: #116490;
   text-decoration: none;
 }
+
+/* line 291, ../sass/brado.scss */
+.prose a {
+  color: #116490;
+  text-decoration: none;
+}
+/* line 293, ../sass/brado.scss */
+.prose a:hover {
+  text-decoration: underline;
+}
