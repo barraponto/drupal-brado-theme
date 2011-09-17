@@ -33,6 +33,9 @@ function brado_process_page(&$vars) {
   if (isset($vars['node']) && node_access('update',$vars['node'])) {
     $vars['title_suffix'] = l('Editar', 'node/' . $vars['node']->nid . '/edit');
   }
+  if (arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
+    $vars['title'] = 'Conteúdo com a tag <em>' . $vars['title'] . '</em>:';
+  }
 }
 
 function brado_form_search_block_form_alter(&$form, &$form_state) {
