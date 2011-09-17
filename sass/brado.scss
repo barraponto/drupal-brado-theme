@@ -292,3 +292,14 @@ body {
     @include link-styles;
     &:hover {
     text-decoration: underline; } } }
+
+.node-teaser {
+  h2 { margin: 1em 0 0.5em 0;
+  a { 
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none; } }
+  .node-links { 
+    text-align: right;
+    a { 
+      @include link-styles; } } }

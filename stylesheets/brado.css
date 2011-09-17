@@ -402,3 +402,23 @@ body.front #main-content .field-name-body {
 .prose a:hover {
   text-decoration: underline;
 }
+
+/* line 297, ../sass/brado.scss */
+.node-teaser h2 {
+  margin: 1em 0 0.5em 0;
+}
+/* line 298, ../sass/brado.scss */
+.node-teaser h2 a {
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+/* line 302, ../sass/brado.scss */
+.node-teaser .node-links {
+  text-align: right;
+}
+/* line 304, ../sass/brado.scss */
+.node-teaser .node-links a {
+  color: #116490;
+  text-decoration: none;
+}
