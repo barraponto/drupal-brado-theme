@@ -338,3 +338,21 @@ body.front #main-content .field-name-body {
 .node-personagem .field-name-field-fatos .field-item {
   list-style: disc outside none;
 }
+
+/* line 268, ../sass/brado.scss */
+#views-exposed-form-brado-videos-page .views-exposed-widgets {
+  margin: 0.5em 0 1.5em 0;
+}
+/* line 270, ../sass/brado.scss */
+#views-exposed-form-brado-videos-page .views-exposed-widget {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+/* line 275, ../sass/brado.scss */
+#views-exposed-form-brado-videos-page .views-exposed-widget input {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 2em;
+}
