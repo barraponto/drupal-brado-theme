@@ -68,3 +68,41 @@ function brado_field__field_banner($variables) {
 
   return $output;
 }
+
+function brado_pager($vars) {
+  $tags = $vars['tags'];
+  $element = $vars['element'];
+  $parameters = $vars['parameters'];
+  $quantity = $vars['quantity'];
+  $pager_list = theme('pager_list', $vars);
+
+  $links = array();
+  $links['pager-first'] = theme('pager_first', array(
+    'text' => (isset($tags[0]) ? $tags[0] : t('<<')),
+    'element' => $element,
+    'parameters' => $parameters
+  ));
+  $links['pager-previous'] = theme('pager_previous', array(
+    'text' => (isset($tags[1]) ? $tags[1] : t('<')),
+    'element' => $element,
+    'interval' => 1,
+    'parameters' => $parameters
+  ));
+  $links['pager-next'] = theme('pager_next', array(
+    'text' => (isset($tags[3]) ? $tags[3] : t('>')),
+    'element' => $element,
+    'interval' => 1,
+    'parameters' => $parameters
+  ));
+  $links['pager-last'] = theme('pager_last', array(
+    'text' => (isset($tags[4]) ? $tags[4] : t('>>')),
+    'element' => $element,
+    'parameters' => $parameters
+  ));
+  $links = array_filter($links);
+  $pager_links = theme('links', array(
+    'links' => $links,
+    'attributes' => array('class' => 'links pager pager-links')
+  ));
+    return "<div class='pager clearfix'>$pager_links</div>";
+}
